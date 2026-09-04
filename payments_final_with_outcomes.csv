@@ -1,0 +1,31 @@
+Name,Amount,Failure Reason,Days Since Failure,Recommended Action,Reason,Confidence,Outcome
+Aarav Sharma,2500,Card declined,3,Send a payment retry link,"Since the failure was recent and due to a card decline, providing a direct retry link allows the customer to easily use an alternative card or fix bank-side issues.",High,Recovered
+Priya Reddy,6800,Insufficient funds,7,Send a payment retry link,"A week has passed since the insufficient funds error, allowing time for balance replenishment so the customer can frictionlessly retry the payment.",Medium,Recovered
+Rahul Verma,1200,Left checkout,2,Send a payment retry link,"The failure occurred recently due to checkout abandonment, so providing a direct retry link minimizes friction for the customer to complete the transaction.",High,Recovered
+Sneha Iyer,4500,Overdue invoice,11,Escalate to human follow-up call,"Since 11 days have passed without payment on an overdue invoice, personal outreach is needed to understand the delay and secure payment.",Medium,Recovered
+Arjun Nair,7500,Payment timeout,5,Send a payment retry link,"The failure was caused by a technical timeout rather than a lack of intent or funds, so providing a seamless way to re-attempt the transaction is the most effective friction-free solution.",High,Recovered
+Kavya Rao,3200,Card declined,9,Send a payment retry link,"Card declines usually require updated payment details, so providing a direct, frictionless link allows the customer to easily update their card and resolve the issue.",Medium,Not Recovered
+Vikram Singh,5800,Insufficient funds,4,Send a payment retry link,"Since four days have passed since the insufficient funds error, the customer has likely replenished their account and can easily complete the transaction via a direct link.",Medium,Not Recovered
+Ananya Mehta,900,Left checkout,1,Send a payment retry link,"Since the abandonment occurred only one day ago, purchase intent remains high and a direct retry link minimizes friction to complete the transaction.",High,Recovered
+Rohan Gupta,6700,Overdue invoice,13,Escalate to human follow-up call,"At 13 days overdue, automated channels have likely been ignored, requiring direct human engagement to understand payment barriers or invoice disputes.",Medium,Recovered
+Neha Joshi,2100,Payment timeout,6,Send a payment retry link,"A payment timeout indicates clear intent to pay that was interrupted by a technical issue, so providing a direct link makes completing the transaction frictionless.",High,Recovered
+Aditya Kumar,4900,Card declined,8,Send a payment retry link,Providing a direct retry link allows the customer to easily complete the transaction using an updated or alternative payment method after an initial card decline.,Medium,Recovered
+Pooja Shah,7600,Insufficient funds,12,Escalate to human follow-up call,"Since 12 days have passed since the failure due to insufficient funds, a personalized call is needed to discuss payment timing and successfully secure the transaction.",Medium,Not Recovered
+Karan Patel,1500,Left checkout,3,Send a payment retry link,"The customer showed clear purchase intent recently and simply abandoned checkout, so a direct link minimizes friction to complete the payment.",High,Recovered
+Divya Menon,6200,Overdue invoice,15,Escalate to human follow-up call,"Since the invoice is 15 days overdue, automated channels have likely been ignored and direct personal contact is required to address payment friction and secure commitment.",Medium,Recovered
+Siddharth Das,3800,Payment timeout,10,Send a payment retry link,"The failure was caused by a technical timeout during an intentional attempt, so providing a fresh, direct payment link removes friction to complete the transaction.",High,Recovered
+Ishita Kapoor,5500,Card declined,2,Send a payment retry link,"The failure is recent and due to a simple card decline, so providing a direct link allows the customer to easily retry or update their payment method.",High,Recovered
+Manish Yadav,7200,Insufficient funds,14,Escalate to human follow-up call,"Fourteen days have passed since the payment failed due to insufficient funds, requiring a personalized touch to discuss alternative payment arrangements or confirm if account funds are now available.",Medium,Recovered
+Swathi Reddy,2800,Left checkout,5,Send a payment retry link,"Providing a direct, pre-filled link reduces friction for a user who abandoned checkout, allowing them to quickly complete the transaction.",Medium,Recovered
+Nikhil Bansal,6400,Overdue invoice,7,Send a reminder email,"Since the invoice is only 7 days overdue, a timely reminder email is the most cost-effective first step to prompt payment before escalating further.",Medium,Not Recovered
+Meera Krishnan,1100,Payment timeout,4,Send a payment retry link,"A payment timeout indicates high intent to pay that was interrupted by a technical delay, making a direct retry link the easiest friction-free path to completion.",High,Recovered
+Varun Malhotra,7900,Card declined,12,Send a reminder email,fallback after repeated errors,Low,Not Recovered
+Lakshmi Devi,2300,Insufficient funds,6,Send a reminder email,fallback after repeated errors,Low,Not Recovered
+Abhishek Rao,5100,Left checkout,9,Send a reminder email,fallback after repeated errors,Low,Not Recovered
+Riya Choudhary,3500,Overdue invoice,3,Send a reminder email,fallback after repeated errors,Low,Recovered
+Harsh Vardhan,6800,Payment timeout,14,Send a reminder email,fallback after repeated errors,Low,Not Recovered
+Tanvi Agarwal,800,Card declined,1,Send a reminder email,fallback after repeated errors,Low,Not Recovered
+Sanjay Kumar,4700,Insufficient funds,10,Send a reminder email,fallback after repeated errors,Low,Recovered
+Aditi Sinha,5900,Left checkout,8,Send a reminder email,fallback after repeated errors,Low,Recovered
+Pranav Reddy,7400,Overdue invoice,5,Send a reminder email,fallback after repeated errors,Low,Not Recovered
+Nandini Rao,1600,Payment timeout,13,Send a reminder email,fallback after repeated errors,Low,Not Recovered
